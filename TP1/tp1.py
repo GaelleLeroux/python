@@ -1,5 +1,5 @@
-import FonctionExo2Impots as f
+import Fonctionexo5Syracus as f
     
 
 
-print(f.mesImpots())
+print(f.Syracus(12))
