@@ -34,11 +34,24 @@ def Syracus(x):
 
 
 def TempDeVol(min,max):
-    u=min
+    u=0
+    Tmax=0
     for i in range(min,max+1):
         n,p,q=Syracus(i)
-        if p>u:
+        if p>Tmax:
+            Tmax=p
             u=i
+    return(u,Tmax)
+
+def AltitudeMax(min,max):
+    u=0
+    Amax=0
+    for i in range(min,max+1):
+        n,p,q=Syracus(i)
+        if n>Amax:
+            Amax=n
+            u=i
+    return(u,Amax)
             
             
         
