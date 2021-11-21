@@ -16,4 +16,4 @@ def tous_les_tricolores(N):
     for i in range(0,N+1):
         if tricolore(i)==True:
             L.append(i)
-    return(L)
+    return(L) 
