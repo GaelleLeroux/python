@@ -1,5 +1,5 @@
-import Fonctionexo5Syracus as f
+import FonctionExo6Tricolore as f
     
 
 
-print(f.Syracus(12))
+print(f.tous_les_tricolores(149))
