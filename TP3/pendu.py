@@ -4,14 +4,19 @@ from random import randint
 fichier = open("TP3/biblio.txt")
 contenu=fichier.readlines()
 
+MS=open("TP3/MeilleurScore.txt","a")
+MS.write(f"{str(4)}\n")
+MS.close()
+
 MS=open("TP3/MeilleurScore.txt")
 ms=MS.read
 u=0
-for i in ms:
-    if i>u:
-        u=i
+for i in MS:
+    if int(i)>u:
+        u=int(i)
 
 print(u)
+MS.close()
 
 
 
