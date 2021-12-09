@@ -106,13 +106,11 @@ def pendu():
         gagne2=gagne(Ltrouver,Ladeviner)
         i=i+1
         print(affichage(Ltrouver,i))
-        print(i)
     print(ajout_score(i,mot))
     print("le meuilleur score est de : ",dire_ms())
     return on_retourne(mot,i)
 
 
 
-
-
 print(pendu())
+
